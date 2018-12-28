@@ -13,24 +13,36 @@ html, body {
   background-color: blue;
   text-align: center;
   font-size: 13px;
+  font-style: italic;
 }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 400px) {
+@media only screen and (min-width: 350px) and (max-width: 460px) {
 #medium {
   height: 100%;
   background-color: red;
   text-align: center;
   font-size: 25px;
+  font-style: normal;
+}
+#klein: {
+  display: none;
 }
 }
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 441px) {
 #groot {
   height: 100%;
   background-color: green;
   text-align: center;
   font-size: 30px;
- 
+  font-style: arial;
 }
+#klein {
+  display: none;
+}
+#medium {
+  display: none;
+}
+
 }
